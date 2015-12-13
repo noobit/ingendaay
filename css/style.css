@@ -77,22 +77,22 @@ ul.dropdown-menu { border: none }
 .head-section .nav li.active ul.dropdown-menu li.active a {
     color: #fff;
     background-color: #48cfad;
-    -webkit-transition: all .3s ease;
-    -moz-transition: all .3s ease;
-    -ms-transition: all .3s ease;
-    -o-transition: all .3s ease;
-    transition: all .3s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
 }
 .head-section .navbar-default .navbar-nav > .open > a,
 .head-section .navbar-default .navbar-nav > .open > a:hover,
 .head-section .navbar-default .navbar-nav > .open > a:focus {
     color: #fff;
     background-color: #48cfad;
-    -webkit-transition: all .3s ease;
-    -moz-transition: all .3s ease;
-    -ms-transition: all .3s ease;
-    -o-transition: all .3s ease;
-    transition: all .3s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
 }
 .head-section .navbar { min-height: 85px }
 .head-section .navbar-nav > li {
@@ -107,22 +107,22 @@ ul.dropdown-menu { border: none }
     -moz-border-radius: 3px;
     margin-left: 2px;
     line-height: 30px;
-    -webkit-transition: all .3s ease;
-    -moz-transition: all .3s ease;
-    -ms-transition: all .3s ease;
-    -o-transition: all .3s ease;
-    transition: all .3s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
 }
 .dropdown-menu li a:hover { color: #fff !important }
 .head-section .navbar-default .navbar-nav > .open > a .caret,
 .navbar-default .nav li.dropdown > a:focus .caret {
     border-top-color: #ffffff;
     border-bottom-color: #ffffff;
-    -webkit-transition: all .3s ease;
-    -moz-transition: all .3s ease;
-    -ms-transition: all .3s ease;
-    -o-transition: all .3s ease;
-    transition: all .3s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
     color: #fff;
 }
 .dropdown-menu { box-shadow: none }
@@ -1180,7 +1180,6 @@ section.contact-infos {
     -o-transition: all .3s ease;
     transition: all .3s ease;
 }
-.media p { line-height: normal }
 ul.tag {
     display: inline-block;
     width: 100%;

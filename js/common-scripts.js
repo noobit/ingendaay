@@ -18,7 +18,7 @@ var Script = function () {
     //     slideWidth: 276,
     //     slideMargin: 20
     // });
-
+new WOW().init();
 }();
 
 	(function() {

@@ -129,20 +129,74 @@
 -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+<script src="js/wow.min.js"></script>
+
+<script type="text/javascript">
+  new WOW().init();
+
+	$('<i id="back-to-top"></i>').appendTo($('body'));
+
+		$(window).scroll(function() {
+			if($(this).scrollTop() != 0) {
+				$('#back-to-top').fadeIn();
+			} else {
+				$('#back-to-top').fadeOut();
+			}
+		});
+
+		$('#back-to-top').click(function() {
+			$('body,html').animate({scrollTop:0},600);
+		});
+    /* Scroll navbar */
+    $('.navbar ul li a').click(function(e) {
+      // prevent default anchor click behavior
+      e.preventDefault();
+
+      // store hash
+      var hash = this.hash;
+      // animate
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 600, function(){
+
+      // when done, add hash to url
+      // (default click behaviour)
+      window.location.hash = hash;
+    });
+});
+
+    $('#kanzlei a').click(function(e) {
+      // prevent default anchor click behavior
+      e.preventDefault();
+
+      // store hash
+      var hash = this.hash;
+      // animate
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 600, function(){
+
+      // when done, add hash to url
+      // (default click behaviour)
+      window.location.hash = hash;
+    });
+
+});
+
+</script>
 
 <!-- <script type="text/javascript" src="js/hover-dropdown.js"></script> -->
-<!-- <script defer src="js/jquery.flexslider.js"></script> -->
-<script type="text/javascript" src="assets/bxslider/jquery.bxslider.js"></script>
+<!-- <script defer src="js/jquery.flexslider.js"></script>  -->
+<!-- <script type="text/javascript" src="assets/bxslider/jquery.bxslider.js"></script> -->
 
-<script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
-<script src="js/wow.min.js"></script>
-<script src="assets/owlcarousel/owl.carousel.js"></script>
+<!-- <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script> -->
+<!-- <script src="assets/owlcarousel/owl.carousel.js"></script> -->
 
-<script src="js/jquery.easing.min.js"></script>
-<script src="js/link-hover.js"></script>
-<script src="js/superfish.js"></script>
-<script type="text/javascript" src="js/parallax-slider/jquery.cslider.js"></script>
-<script type="text/javascript">
+<!-- <script src="js/jquery.easing.min.js"></script> -->
+<!-- <script src="js/link-hover.js"></script> -->
+<!-- <script src="js/superfish.js"></script>
+<script type="text/javascript" src="js/parallax-slider/jquery.cslider.js"></script> -->
+<!-- <script type="text/javascript">
   $(function() {
 
     $('#da-slider').cslider({
@@ -151,18 +205,15 @@
     });
 
   });
-</script>
+</script> -->
 
 
 
 <!--common script for all pages-->
-<script src="js/common-scripts.js">
-</script>
+<!-- <script src="js/common-scripts.js"></script> -->
 
-<script type="text/javascript">
+<!-- <script type="text/javascript">
   jQuery(document).ready(function() {
-
-
     $('.bxslider1').bxSlider({
       minSlides: 5,
       maxSlides: 6,
@@ -175,14 +226,11 @@
       nextText: 'Onward →',
       prevText: '← Go back'
     });
-
   });
+</script> -->
 
 
-</script>
-
-
-<script>
+<!-- <script>
   // $('a.info').tooltip();
 
   // $(window).load(function() {
@@ -194,21 +242,21 @@
   //   });
   // });
 
-  $(document).ready(function() {
+  // $(document).ready(function() {
+  //
+  //   $("#owl-demo").owlCarousel({
+  //
+  //     items : 4
+  //
+  //   });
+  //
+  // });
 
-    $("#owl-demo").owlCarousel({
-
-      items : 4
-
-    });
-
-  });
-
-  jQuery(document).ready(function(){
-    jQuery('ul.superfish').superfish();
-  });
+  // jQuery(document).ready(function(){
+  //   jQuery('ul.superfish').superfish();
+  // });
 
   new WOW().init();
 
 
-</script>
+</script> -->
