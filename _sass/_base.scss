@@ -12,6 +12,11 @@
 }
 .navbar-brand {
   color: $color_gold;
+  line-height: 0 !important;
+  font-weight: 900 !important;
+  font-size:42px !important;
+  font-family: 'Playfair Display', serif;
+
 }
 nav {
   background: #ffffff;
@@ -34,7 +39,17 @@ nav {
   color:#000 !important;
   border-bottom: 1px solid $color_gold;
 }
+.navbar-nav .nav-link {
+  padding-bottom:0 ;
+}
 
+.navbar .nav-item {
+  color:#000;
+}
+.nav {
+  margin-top: 20px;
+
+}
 .bg-signalrot {
   background-color: $color_signalrot;
   h1, h2, h3, p {
@@ -72,6 +87,16 @@ nav {
     h3, p, a {
       color: #fff !important;
     }
+    h2 {
+      color: $color_gold !important;
+    }
+
+  }
+  .slider {
+    margin-top:84px;
+    background: $color_tiefblau;
+    padding-left:0;
+    padding-right:0;
   }
   #kontakt + .google-maps {
        position: relative;
