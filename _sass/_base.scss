@@ -3,22 +3,57 @@
  */
 
 .brand-color {
-  background-color: $brand-color;
+  background-color: $color-weiss;
 }
 
 .carousel-item img {
     width: 100%;
     height: 450px !important;
 }
-
-.nav-stacked .nav-item {
-  margin-top:0 !important;
-  border-top: 1px solid darken($brand-color, 7%);
+.navbar-brand {
+  color: $color_gold;
 }
-.navbar-nav .nav-item+.nav-item {
-    margin-left: .2rem;
-  }
+nav {
+  background: #ffffff;
+}
+.center-container {
+  display: table;
+  width:100%;
+  margin:0;
+}
+.center-row {
+  width:100%;
+  display: table-row;
+}
+.center-row > div {
+  width:50%;
+  display: table-cell;
+  vertical-align:middle;
+}
+.navbar .nav-item a:hover {
+  color:#000 !important;
+  border-bottom: 1px solid $color_gold;
+}
 
+.bg-signalrot {
+  background-color: $color_signalrot;
+  h1, h2, h3, p {
+    color: #fff;
+  }
+}
+.bg-tiefblau {
+  background-color: $color_tiefblau;
+  h1, h2, h3, p {
+    color: $color_gold;
+  }
+}
+.bg-hellgrau {
+  background-color: $color_hellgrau;
+}
+
+.text-center {
+  text-align: center;
+}
   #rechtsanwaelte {
     img {
       width:99%;
@@ -27,13 +62,30 @@
       padding: .25rem 1.25rem;
     }
   }
+  #kanzlei {
+    h1 {
+      color: $color_gold;
+    }
 
-  .google-maps {
+  }
+  footer {
+    h3, p, a {
+      color: #fff !important;
+    }
+  }
+  #kontakt + .google-maps {
        position: relative;
-       padding-bottom: 50%; // This is the aspect ratio
-       height: 0;
+       padding-bottom: 300px; // This is the aspect ratio
+       height: 300px;
        overflow: hidden;
    }
+   footer .google-maps {
+     position: relative;
+     padding-bottom: 200px; // This is the aspect ratio
+     height: 200px;
+     overflow: hidden;
+   }
+
    .google-maps iframe {
        position: absolute;
        top: 0;
@@ -41,3 +93,88 @@
        width: 100% !important;
        height: 100% !important;
    }
+
+
+   .head-section .navbar-default { background-color: #fff }
+   .head-section .nav li a,
+   .head-section .nav li.active ul.dropdown-menu li a {
+       color: #999;
+       font-size: 14px;
+       font-weight: 300;
+       background: none;
+       margin-left: .2rem;
+   }
+   ul.dropdown-menu { }
+   .head-section .nav li a:hover,
+   .head-section .nav li a:focus,
+   .head-section .nav li.active a,
+   .head-section .nav li.active a:hover,
+   .head-section .nav li a.dropdown-toggle:hover,
+   .head-section .nav li a.dropdown-toggle:focus,
+   .head-section .nav li.active ul.dropdown-menu li a:hover,
+   .head-section .nav li.active ul.dropdown-menu li.active a {
+     border-bottom: 1px solid $color_gold;
+   }
+   .head-section .navbar-default .navbar-nav > .open > a,
+   .head-section .navbar-default .navbar-nav > .open > a:hover,
+   .head-section .navbar-default .navbar-nav > .open > a:focus {
+       color: #fff;
+       background-color: #48cfad;
+       border-bottom: 1px solid $color_gold;
+
+   }
+   .head-section .navbar { min-height: 85px }
+   .head-section .navbar-nav > li {
+       padding: 0;
+       maring-top: 20px;
+   }
+   .head-section ul.navbar-nav li:last-child { margin-left: 10px !important }
+   .head-section  .navbar-nav > li > a {
+       padding: 5px 15px;
+       border-radius: 3px;
+       -webkit-border-radius: 3px;
+       -moz-border-radius: 3px;
+       margin-left: 2px;
+       line-height: 30px;
+       -webkit-transition: all .5s ease;
+       -moz-transition: all .5s ease;
+       -ms-transition: all .5s ease;
+       -o-transition: all .5s ease;
+       transition: all .5s ease;
+   }
+   .dropdown-menu li a:hover { color: #fff !important }
+   .head-section .navbar-default .navbar-nav > .open > a .caret,
+   .navbar-default .nav li.dropdown > a:focus .caret {
+       border-top-color: #ffffff;
+       border-bottom-color: #ffffff;
+       -webkit-transition: all .5s ease;
+       -moz-transition: all .5s ease;
+       -ms-transition: all .5s ease;
+       -o-transition: all .5s ease;
+       transition: all .5s ease;
+       color: #fff;
+   }
+   .dropdown-menu { box-shadow: none }
+   .head-section .nav li .dropdown-menu {
+       margin-top: -5px;
+       padding: 0;
+       border-radius: 0px;
+       -webkit-border-radius: 0px;
+       -moz-border-radius: 0px;
+   }
+   .head-section .nav li .dropdown-menu li a {
+       line-height: 30px;
+       padding: 3px 12px;
+       border-bottom: 1px solid #F3E8E8;
+   }
+
+
+.form-control {
+  background-color: $color_hellgrau;
+  color: $color_anthrazit
+}
+footer ul {
+  list-style-type: none;
+color: #fff;
+padding-left: 0;
+}
