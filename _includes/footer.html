@@ -53,10 +53,25 @@
 -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+<!-- <script src="assets/bxslider/jquery.bxslider.min.js"></script> -->
+<script src="assets/unslider/unslider-min.js"></script>
+
+
 <script src="js/wow.min.js"></script>
 
 <script type="text/javascript">
+$(document).ready(function() {
   new WOW().init();
+
+  // $('.bxslider').bxSlider({
+  //
+  // });
+  var mySwiper = new Swiper ('.swiper-container', {
+      // Optional parameters
+      loop: true,
+      pagination: '.swiper-pagination',
+       paginationClickable: true
+    })
 
 	$('<i id="back-to-top"></i>').appendTo($('body'));
 
@@ -80,7 +95,7 @@
       var hash = this.hash;
       // animate
       $('html, body').animate({
-        scrollTop: $(hash).offset().top
+        scrollTop: $(hash).offset().top - 90
       }, 600, function(){
 
       // when done, add hash to url
@@ -88,22 +103,6 @@
       window.location.hash = hash;
     });
 });
-
-    $('#kanzlei a').click(function(e) {
-      // prevent default anchor click behavior
-      e.preventDefault();
-
-      // store hash
-      var hash = this.hash;
-      // animate
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 600, function(){
-
-      // when done, add hash to url
-      // (default click behaviour)
-      window.location.hash = hash;
-    });
 
 });
 
@@ -136,22 +135,6 @@
 <!--common script for all pages-->
 <!-- <script src="js/common-scripts.js"></script> -->
 
-<!-- <script type="text/javascript">
-  jQuery(document).ready(function() {
-    $('.bxslider1').bxSlider({
-      minSlides: 5,
-      maxSlides: 6,
-      slideWidth: 360,
-      slideMargin: 2,
-      moveSlides: 1,
-      responsive: true,
-      nextSelector: '#slider-next',
-      prevSelector: '#slider-prev',
-      nextText: 'Onward →',
-      prevText: '← Go back'
-    });
-  });
-</script> -->
 
 
 <!-- <script>

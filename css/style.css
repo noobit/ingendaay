@@ -4,19 +4,8 @@ Template Version: 1.0
 Author: cosmic
 Website:
 */
-body {
-    color: #797979;
-    font-family: 'Lato', sans-serif;
 
-    padding: 0px !important;
-    margin: 0px !important;
-}
-a,
-a:hover,
-a:focus {
-    text-decoration: none;
-    outline: none;
-}
+
 ::selection {
     background: #48cfad;
     color: #fff;
@@ -33,8 +22,7 @@ h5,
 h6 {
     font-family: 'Playfair Display', serif;
 }
-a { color: #444e67 }
-a:hover { color: #48cfad }
+
 
 /*header*/
 .head-section { border-bottom: 1px solid #eee }
@@ -217,14 +205,7 @@ a:hover { color: #48cfad }
     display: inline-block;
     width: 100%;
 }
-/*tabs*/
-.tab { background: #fff }
-.tab .nav > li > a { padding: 0; margin-top: 1rem; }
-.tab-bg-dark-navy-blue {
-    background: #6f6f6f;
-    border-bottom: none;
-    padding: 0;
-}
+
 .tab-bg-dark-navy-blue .nav > li > a:hover,
 .tab-bg-dark-navy-blue .nav > li > a:focus {
     background-color: #f4f4f4;
