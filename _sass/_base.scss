@@ -120,13 +120,16 @@ footer {
 }
 img {
   float:right;
-  width:100%;
 }
 .swiper-container {
   margin-top: 84px !important;
   background: $color_tiefblau;
   padding-left: 0;
   padding-right: 0;
+  img {
+    width:100%;
+
+  }
 }
 .swiper-pagination-bullet-active {
   background: $color_signalrot !important;
