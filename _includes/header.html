@@ -1,7 +1,7 @@
   <nav class="navbar navbar-fixed-top">
     <div class="container">
 
-      <a class="navbar-brand" href="/">Ingendaay</a>
+      <a class="navbar-brand" href="{{ "/" | prepend: site.baseurl }}">Ingendaay</a>
 
       <button class="navbar-toggler hidden-sm-up pull-xs-right text-muted" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
         &#9776;
@@ -9,16 +9,16 @@
       <div class="collapse navbar-collapse navbar-toggleable-xs pull-xs-right" id="exCollapsingNavbar2">
         <ul class="nav nav-pills navbar-nav" role="tablist">
           <li class="nav-item">
-            <a class="nav-link" href="#kanzlei">Kanzlei <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="{{ "#kanzlei" | prepend: site.baseurl }}">Kanzlei <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#rechtsgebiete">Rechtsgebiete</a>
+            <a class="nav-link" href="{{ "#rechtsgebiete" | prepend: site.baseurl }}">Rechtsgebiete</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#rechtsanwaelte">Rechtsanwälte</a>
+            <a class="nav-link" href="{{ "#rechtsanwaelte" | prepend: site.baseurl }}">Rechtsanwälte</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#kontakt">Kontakt</a>
+            <a class="nav-link" href="{{ "#kontakt" | prepend: site.baseurl }}">Kontakt</a>
           </li>
         </ul>
       </div>
