@@ -27,7 +27,6 @@ b {
 }
 nav {
   background: #ffffff;
-  height: 96px;
 }
 .overlay {
    background:transparent;
@@ -113,14 +112,8 @@ footer {
     color: $color_gold !important;
   }
 }
-.anwalt {
-  float:left;
-  width:70%;
 
-}
-img {
-  float:right;
-}
+
 .anwalt ul {
   padding-left:1rem;
 }
@@ -188,8 +181,22 @@ ul {
     margin-left: 2rem;
   }
 }
-.half {
+
+@media (min-width: 768px) {
+  .half {
   background: url(../img/bg.jpg);
     background-size: 100% 100%;
     background-repeat: repeat-x;
+}
+.anwalt {
+  float:left;
+  width:70%;
+
+}
+nav {
+  height: 96px;
+}
+img {
+  float:right;
+}
 }
