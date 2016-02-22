@@ -9,7 +9,7 @@ permalink: /impressum
 Dr. Dominik Ingendaay, LL.M.
 
 Rechtsanwalt  
-Fachanwalt für Gewerblichen Rechtsschutz  
+Fachanwalt für gewerblichen Rechtsschutz  
 Fachanwalt für Urheber- und Medienrecht
 
 Kurfürstendamm 66  
@@ -28,11 +28,11 @@ Rechtsanwalt Dr. Dominik Ingendaay, LL.M. ist Mitglied der Rechtsanwaltskammer B
 Littenstraße 9  
 10179 Berlin
 
-[www.brak.de](http://www.brak.de){:target="_blank"}
+[www.rak-berlin.de](http://www.rak-berlin.de){:target="_blank"}
 
 
 
-Berufsrecht der Rechtsanwälte ([www.brak.de](http://www.brak.de){:target="_blank"}):  
+Berufsrecht der Rechtsanwälte ([www.rak-berlin.de](http://www.rak-berlin.de){:target="_blank"}):  
 Bundesrechtsanwaltsordnung BRAO, Berufsordnung für Rechtsanwälte BORA, Fachanwaltsordnung FAO, Rechtsanwaltsvergütungsgesetz RVG und die Berufsregelungen der Rechtsanwälte der Europäischen Union
 
 Berufshaftpflichtversicherung:  
