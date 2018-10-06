@@ -9,7 +9,7 @@
 title: RA Dr. Dominik Ingendaay, LL.M.
 email: ingendaay@vnem.de
 description: Rechtsanwalt Dr. Dominik Ingendaay, LL.M.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/ingendaay" # the subpath of your site, e.g. /blog
 url: "http://www.ingendaay.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
